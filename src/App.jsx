@@ -6,7 +6,7 @@ import { Dashboard, Customers, Product, Help, Income, Promote } from "./Pages";
 function App() {
   return (
     <BrowserRouter>
-      <div className=" flex">
+      <div className="flex">
         <Sidebar />
         <Routes>
           <Route path="/" element={<Dashboard />} />

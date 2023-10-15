@@ -12,7 +12,7 @@ const Card = ({
 }) => {
   return (
     <div
-      className={`w-[17vw] h-36 flex items-center justify-start gap-2 rounded-md`}
+      className={`w-[17.6vw] h-36 flex items-center justify-evenly shadow-md gap-2 rounded-md bg-white `}
     >
       <div
         className={` flex items-center justify-center text-6xl w-28 h-28 rounded-full ${iconColor} ${bgColor} `}
