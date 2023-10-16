@@ -81,14 +81,20 @@ const CustomPieChart = () => {
     [setActiveIndex]
   );
 
+  const isMobile = window.innerWidth <= 1000; // Adjust the breakpoint as needed
+  const width = isMobile ? 300 : 350; // Adjust the values as needed
+  const height = isMobile ? 250 : 250;
+  const cx = isMobile ? 150 : 175;
+  const cy = isMobile ? 125 : 125;
+
   return (
-    <PieChart width={400} height={300}>
+    <PieChart width={width} height={height}>
       <Pie
         activeIndex={activeIndex}
         activeShape={renderActiveShape}
         data={data}
-        cx={200}
-        cy={150}
+        cx={cx}
+        cy={cy}
         innerRadius={50}
         outerRadius={80}
         fill="#5D36EA"

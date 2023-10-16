@@ -17,7 +17,7 @@ const Sidebar = () => {
   const currentActiveLink = useLocation();
 
   return (
-    <div className="hidden md:flex w-1/5 h-screen fixed bg-[#040440] flex-col items-center justify-between pt-4 Pb-4 text-white">
+    <div className="hidden lg:flex w-1/5 h-screen fixed bg-[#040440] flex-col items-center justify-between pt-4 Pb-4 text-white">
       <div className="w-10/12">
         <div className="text-3xl text-bold flex items-center gap-3 pb-6">
           <BsNut className=" text-4xl" />

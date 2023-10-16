@@ -10,5 +10,6 @@
 
 body{
     background: #F5F6F8;
+    overflow-x: hidden;
 }
 
