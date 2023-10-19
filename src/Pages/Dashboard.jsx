@@ -60,7 +60,7 @@ const Dashboard = () => {
   return (
     <>
       {!mobileNavbar && (
-        <div className=" w-screen lg:w-4/5 absolute lg:left-[20%] bg-[#1950bd] px-10 py-10 flex flex-col gap-8">
+        <div className=" w-screen lg:w-4/5 absolute lg:left-[20%] bg-[#F5F6F8] px-10 py-10 flex flex-col gap-8">
           <div className="flex items-center justify-between">
             <div className="greeting">
               <span className=" text-2xl font-medium flex items-center justify-start gap-5">
